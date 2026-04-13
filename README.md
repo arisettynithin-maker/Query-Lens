@@ -14,6 +14,32 @@ In real analytics workflows, many issues are discovered too late:
 
 QueryLens was built to add a practical QA layer before release, so analytics outputs are decision-safe, testable, and easier to trust.
 
+## Screenshots
+
+### 1) Workspace Overview
+*Main review workspace with artifact input, session context, and risk summary in one operating view.*
+![Workspace overview](./docs/screenshots/01-workspace-overview.png)
+
+### 2) Findings Overview
+*Structured findings grouped by query unit for faster triage and risk prioritization.*
+![Findings overview](./docs/screenshots/02-findings-overview.png)
+
+### 3) Test Cases Overview
+*Validation plan generated from findings, with coverage and status tracking.*
+![Test cases overview](./docs/screenshots/03-test-cases-overview.png)
+
+### 4) Rewrite Overview
+*Guided remediation panel to generate safer, clearer artifact revisions.*
+![Rewrite overview](./docs/screenshots/04-rewrite-overview.png)
+
+### 5) History Overview
+*Session history for resuming prior reviews and tracking review state over time.*
+![History overview](./docs/screenshots/05-history-overview.png)
+
+### 6) Settings Overview
+*Runtime, intelligence, and safety controls for consistent QA behavior.*
+![Settings overview](./docs/screenshots/06-settings-overview.png)
+
 ## Who This Is For
 
 - Analytics engineers and BI developers reviewing SQL before dashboard release
@@ -75,32 +101,6 @@ QueryLens is not a generic SQL editor, formatter, or chat wrapper.
 
 Analytics artifacts often contain sensitive business logic, metric definitions, and release context.  
 Running generation through local models helps reduce exposure risk while still enabling assisted QA workflows.
-
-## Screenshots
-
-### 1) Workspace Overview
-*Main review workspace with artifact input, session context, and risk summary in one operating view.*
-![Workspace overview](./docs/screenshots/01-workspace-overview.png)
-
-### 2) Findings Overview
-*Structured findings grouped by query unit for faster triage and risk prioritization.*
-![Findings overview](./docs/screenshots/02-findings-overview.png)
-
-### 3) Test Cases Overview
-*Validation plan generated from findings, with coverage and status tracking.*
-![Test cases overview](./docs/screenshots/03-test-cases-overview.png)
-
-### 4) Rewrite Overview
-*Guided remediation panel to generate safer, clearer artifact revisions.*
-![Rewrite overview](./docs/screenshots/04-rewrite-overview.png)
-
-### 5) History Overview
-*Session history for resuming prior reviews and tracking review state over time.*
-![History overview](./docs/screenshots/05-history-overview.png)
-
-### 6) Settings Overview
-*Runtime, intelligence, and safety controls for consistent QA behavior.*
-![Settings overview](./docs/screenshots/06-settings-overview.png)
 
 ## Example Use Cases
 
