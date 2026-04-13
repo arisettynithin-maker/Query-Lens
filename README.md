@@ -8,25 +8,22 @@ QueryLens helps analytics teams catch logic and communication risks before dashb
 ## Screenshots / Demo
 
 ### 1. Workspace overview
-![Workspace overview](./docs/screenshots/workspace-overview.png)
+![Workspace overview](./docs/screenshots/01-workspace-overview.png)
 
-### 2. Test cases overview
-![Test cases overview](./docs/screenshots/test-cases-overview.png)
+### 2. Findings overview
+![Findings overview](./docs/screenshots/02-findings-overview.png)
 
-### 3. Release readiness summary
-![Test cases release readiness](./docs/screenshots/test-cases-release-readiness.png)
+### 3. Test cases overview
+![Test cases overview](./docs/screenshots/03-test-cases-overview.png)
 
-### 4. Critical denominator validation
-![Test case denominator check](./docs/screenshots/test-case-denominator-check.png)
+### 4. Rewrite overview
+![Rewrite overview](./docs/screenshots/04-rewrite-overview.png)
 
-### 5. Null impact validation
-![Test case null impact check](./docs/screenshots/test-case-null-impact-check.png)
+### 5. History overview
+![History overview](./docs/screenshots/05-history-overview.png)
 
-### 6. Rewrite workspace
-![Rewrite workspace](./docs/screenshots/rewrite-workspace.png)
-
-### 7. Rewrite empty state
-![Rewrite empty state](./docs/screenshots/rewrite-empty-state.png)
+### 6. Settings overview
+![Settings overview](./docs/screenshots/06-settings-overview.png)
 
 ## Why I Built This
 In many analytics workflows, teams validate whether SQL runs, but not whether it is decision-safe. Production issues often come from join duplication, denominator risk, ambiguous KPI definitions, and weak stakeholder narratives. QueryLens was built to add a practical QA layer before reporting is shipped.
