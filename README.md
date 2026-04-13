@@ -5,6 +5,26 @@ Local-first analytics QA workspace for SQL, KPI definitions, narratives, and bat
 ## Product Overview
 QueryLens helps analytics teams catch logic and communication risks before dashboards, releases, and business decisions go live. It combines findings, validation planning, and guided rewrites in one review workflow.
 
+## Screenshots / Demo
+
+### 1. Test cases overview
+![Test cases overview](./docs/screenshots/test-cases-overview.png)
+
+### 2. Release readiness summary
+![Test cases release readiness](./docs/screenshots/test-cases-release-readiness.png)
+
+### 3. Critical denominator validation
+![Test case denominator check](./docs/screenshots/test-case-denominator-check.png)
+
+### 4. Null impact validation
+![Test case null impact check](./docs/screenshots/test-case-null-impact-check.png)
+
+### 5. Rewrite workspace
+![Rewrite workspace](./docs/screenshots/rewrite-workspace.png)
+
+### 6. Rewrite empty state
+![Rewrite empty state](./docs/screenshots/rewrite-empty-state.png)
+
 ## Why I Built This
 In many analytics workflows, teams validate whether SQL runs, but not whether it is decision-safe. Production issues often come from join duplication, denominator risk, ambiguous KPI definitions, and weak stakeholder narratives. QueryLens was built to add a practical QA layer before reporting is shipped.
 
@@ -75,26 +95,6 @@ npm run lint
 npm run typecheck
 npm run build
 ```
-
-## Screenshots / Demo
-
-### Rewrite workspace
-![Rewrite workspace](./docs/screenshots/rewrite-workspace.png)
-
-### Rewrite empty state
-![Rewrite empty state](./docs/screenshots/rewrite-empty-state.png)
-
-### Test cases overview
-![Test cases overview](./docs/screenshots/test-cases-overview.png)
-
-### Test case: denominator check
-![Test case denominator check](./docs/screenshots/test-case-denominator-check.png)
-
-### Test case: null impact check
-![Test case null impact check](./docs/screenshots/test-case-null-impact-check.png)
-
-### Test cases release readiness
-![Test cases release readiness](./docs/screenshots/test-cases-release-readiness.png)
 
 ## Example Use Cases
 - Validate a release SQL query for join duplication and denominator safety.
