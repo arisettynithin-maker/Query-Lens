@@ -7,22 +7,25 @@ QueryLens helps analytics teams catch logic and communication risks before dashb
 
 ## Screenshots / Demo
 
-### 1. Test cases overview
+### 1. Workspace overview
+![Workspace overview](./docs/screenshots/workspace-overview.png)
+
+### 2. Test cases overview
 ![Test cases overview](./docs/screenshots/test-cases-overview.png)
 
-### 2. Release readiness summary
+### 3. Release readiness summary
 ![Test cases release readiness](./docs/screenshots/test-cases-release-readiness.png)
 
-### 3. Critical denominator validation
+### 4. Critical denominator validation
 ![Test case denominator check](./docs/screenshots/test-case-denominator-check.png)
 
-### 4. Null impact validation
+### 5. Null impact validation
 ![Test case null impact check](./docs/screenshots/test-case-null-impact-check.png)
 
-### 5. Rewrite workspace
+### 6. Rewrite workspace
 ![Rewrite workspace](./docs/screenshots/rewrite-workspace.png)
 
-### 6. Rewrite empty state
+### 7. Rewrite empty state
 ![Rewrite empty state](./docs/screenshots/rewrite-empty-state.png)
 
 ## Why I Built This
