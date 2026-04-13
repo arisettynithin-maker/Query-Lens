@@ -1,0 +1,21 @@
+{
+  "tables": {
+    "orders": {
+      "grain": "one row per order",
+      "columns": {
+        "order_id": { "type": "string", "nullable": false, "unique": true },
+        "user_id": { "type": "string", "nullable": false },
+        "revenue": { "type": "decimal", "nullable": true },
+        "order_date": { "type": "date", "nullable": false }
+      }
+    },
+    "payments": {
+      "grain": "one row per payment",
+      "columns": {
+        "payment_id": { "type": "string", "nullable": false, "unique": true },
+        "order_id": { "type": "string", "nullable": false },
+        "user_id": { "type": "string", "nullable": false }
+      }
+    }
+  }
+}

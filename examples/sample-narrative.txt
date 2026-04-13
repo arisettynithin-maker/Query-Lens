@@ -1,0 +1,2 @@
+Revenue decreased because traffic was lower.
+Performance was weaker this month and we should monitor it.

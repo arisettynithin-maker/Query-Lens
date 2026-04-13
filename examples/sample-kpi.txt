@@ -1,0 +1,5 @@
+KPI Name: Revenue Growth %
+Definition: Current month net revenue minus previous month net revenue, divided by previous month net revenue.
+Formula: (current_revenue - previous_revenue) / previous_revenue
+Grain: Monthly
+Assumptions: Revenue uses net revenue and previous month is the baseline.

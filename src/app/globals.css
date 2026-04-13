@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+:root {
+  --background: #090b10;
+  --foreground: #ebedf2;
+  --card: #11131a;
+  --card-foreground: #ebedf2;
+  --muted: #171a22;
+  --muted-foreground: #97a0b5;
+  --border: #222736;
+  --input: #1c2230;
+  --ring: #5e7cff;
+  --primary: #dbe4ff;
+  --primary-foreground: #0f1424;
+  --accent: #1f283d;
+  --accent-foreground: #d8e1f7;
+  --sidebar: #0d1017;
+  --sidebar-foreground: #d0d6e5;
+  --sidebar-border: #1d2331;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+}
+
+* {
+  @apply border-border;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family:
+    "IBM Plex Sans",
+    "Inter",
+    "Segoe UI",
+    "SF Pro Text",
+    "Helvetica Neue",
+    sans-serif;
+}
