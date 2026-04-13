@@ -77,22 +77,24 @@ npm run build
 ```
 
 ## Screenshots / Demo
-Add the screenshot files below to `docs/screenshots/` using the exact filenames.
 
-### Workspace overview
-![Workspace overview](./docs/screenshots/workspace-overview.png)
+### Rewrite workspace
+![Rewrite workspace](./docs/screenshots/rewrite-workspace.png)
 
-### Findings and risk detection
-![Findings and risk detection](./docs/screenshots/findings-risk-detection.png)
+### Rewrite empty state
+![Rewrite empty state](./docs/screenshots/rewrite-empty-state.png)
 
-### Validation test cases
-![Validation test cases](./docs/screenshots/validation-test-cases.png)
+### Test cases overview
+![Test cases overview](./docs/screenshots/test-cases-overview.png)
 
-### Guided rewrite
-![Guided rewrite](./docs/screenshots/guided-rewrite.png)
+### Test case: denominator check
+![Test case denominator check](./docs/screenshots/test-case-denominator-check.png)
 
-### History and session tracking
-![History and session tracking](./docs/screenshots/history-session-tracking.png)
+### Test case: null impact check
+![Test case null impact check](./docs/screenshots/test-case-null-impact-check.png)
+
+### Test cases release readiness
+![Test cases release readiness](./docs/screenshots/test-cases-release-readiness.png)
 
 ## Example Use Cases
 - Validate a release SQL query for join duplication and denominator safety.
