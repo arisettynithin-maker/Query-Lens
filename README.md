@@ -2,6 +2,8 @@
 
 **Local-first analytics QA workspace for SQL, KPI definitions, narratives, and batch review.**
 
+🚀 **[Live Demo](https://query-lens-sigma.vercel.app/workspace)** — Try it now online!
+
 QueryLens is a review system for analytics artifacts before they ship to dashboards, stakeholder updates, and decision workflows. It focuses on logic safety, metric clarity, and communication quality, not just whether a query runs.  
 All model-assisted generation runs through local Ollama models, so teams can keep sensitive analytics logic and context inside their environment.
 
