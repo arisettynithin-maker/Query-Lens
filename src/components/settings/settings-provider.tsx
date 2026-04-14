@@ -1,6 +1,6 @@
 "use client";
 
-import { createContext, useCallback, useContext, useMemo, useState } from "react";
+import { createContext, useCallback, useContext, useEffect, useMemo, useState } from "react";
 
 import {
   DEFAULT_QUERYLENS_SETTINGS,
@@ -162,7 +162,11 @@ function loadStoredSettings(): QueryLensSettings {
 }
 
 export function SettingsProvider({ children }: { children: React.ReactNode }) {
-  const [settings, setSettingsState] = useState<QueryLensSettings>(loadStoredSettings);
+  const [settings, setSettingsState] = useState<QueryLensSettings>(DEFAULT_QUERYLENS_SETTINGS);
+
+  useEffect(() => {
+    setSettingsState(loadStoredSettings());
+  }, []);
 
   const setSettings = useCallback((next: QueryLensSettings) => {
     setSettingsState(next);
